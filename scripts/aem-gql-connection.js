@@ -1,9 +1,9 @@
 // Dynamic switching for Universal Editor (author) and .aem.page/aem.live (publish)
 function getAEMHost() {
   if (window.location.hostname.endsWith('adobeaemcloud.com')) {
-    return 'https://author-p156903-e1726641.adobeaemcloud.com';
+    return 'https://author-p159422-e1796412.adobeaemcloud.com';
   }
-  return 'https://publish-p156903-e1726641.adobeaemcloud.com';
+  return 'https://publish-p159422-e1796412.adobeaemcloud.com';
 }
 
 function getCDNCacheBuster() {
